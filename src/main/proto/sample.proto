@@ -1,0 +1,11 @@
+syntax = "proto3";
+import "google/protobuf/timestamp.proto";
+
+package request;
+option java_package = "jp.toyopilgrim.proto";
+option java_multiple_files = true;
+
+message SampleMessage {
+  string user_id = 1;
+  string content = 2;
+}
