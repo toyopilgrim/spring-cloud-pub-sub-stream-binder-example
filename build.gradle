@@ -19,7 +19,7 @@ apply plugin: "com.google.protobuf"
 
 group = 'com.toyopilgrim'
 version = '0.0.1-SNAPSHOT'
-s
+
 configurations {
     compileOnly {
         extendsFrom annotationProcessor
