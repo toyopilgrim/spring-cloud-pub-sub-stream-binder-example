@@ -11,7 +11,7 @@ import java.util.function.Consumer;
 @Slf4j
 public class Handlers {
     @Bean
-    Consumer<SampleMessage> processSample() {
+    public Consumer<SampleMessage> processSample() {
         return sampleMessage -> log.info("Received message: {}", sampleMessage.getContent());
     }
 }
